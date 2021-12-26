@@ -3,14 +3,17 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
 .form label {
   display: block;
-  font: 600 1rem/1.5 "poppins", sans-serif;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
+
 .form .col-2 {
   grid-column: span 2;
 }
+
 .form input[type="text"],
 .form input[type="email"],
 .form textarea {
@@ -31,11 +34,12 @@
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
 }
+
 @media (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;
   }
-  .col-2 {
+  .form .col-2 {
     grid-column: 1;
   }
 }
